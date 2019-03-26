@@ -1,0 +1,39 @@
+.modal {
+  width: 50%;
+  margin: auto;
+  height: 460px;
+  z-index: 3;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 100%;
+  height: 460px;
+  overflow: auto;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
